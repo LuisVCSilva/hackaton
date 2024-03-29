@@ -27,13 +27,6 @@ Here are some plots
   yAxis="Volume"
 />
 
-<BarChart
-  data="data.csv"
-  title="Bitcoin Data"
-  xAxis="Date"
-  yAxis="Volume"
-/>
-
 <PlotlyLineChart
   data={[
     {
