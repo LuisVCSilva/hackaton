@@ -1,29 +1,34 @@
-![image](https://github.com/LuisVCSilva/hackaton/assets/23017780/bbfd07ad-0ce2-4d41-b6cd-80156dc5f043)![image](https://github.com/LuisVCSilva/hackaton/assets/23017780/9a9c3180-cb80-4ec2-8d76-0aa45ac62a62)---
+---
 datapackage:
-  title: Dataset Template
-  description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
+  title: My own example
+  description: This is not a template anymore
   licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
+  - path: #http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
   - path: data.csv
-    title: BTC - USD (2014 - 2024)
-    name: btc-per-year
+    title: BTCxUSD
+    name: btcusd
     format: csv
     schema:
       fields:
-      - name: Date
+      - name: year
         type: date
-      - name: Open
+      - name: co2
         type: number
 ---
 
+Here's some text.
+
+You can add as much text as you like.
+
+The data files will be automatically displayed here.
 
 We can add a chart:
 
 <LineChart
   data="./data.csv"
-  title="BTC - USD (2014 - 2024) Open"
+  title="BTC - USD"
   xAxis="year"
   yAxis="value"
 />
