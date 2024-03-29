@@ -7,8 +7,8 @@ datapackage:
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
   - path: data.csv
-    title: C02 PPM per decade
-    name: c02-per-decade
+    title: BTCxUSD
+    name: btcXusd
     format: csv
     schema:
       fields:
@@ -18,11 +18,7 @@ datapackage:
         type: number
 ---
 
-Here's some text.
-
-You can add as much text as you like.
-
-The data files will be automatically displayed here.
+lorem ipsum
 
 We can add a chart:
 
