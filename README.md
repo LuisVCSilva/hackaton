@@ -1,4 +1,4 @@
----
+![image](https://github.com/LuisVCSilva/hackaton/assets/23017780/bbfd07ad-0ce2-4d41-b6cd-80156dc5f043)![image](https://github.com/LuisVCSilva/hackaton/assets/23017780/9a9c3180-cb80-4ec2-8d76-0aa45ac62a62)---
 datapackage:
   title: Dataset Template
   description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
@@ -7,28 +7,23 @@ datapackage:
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
   - path: data.csv
-    title: C02 PPM per decade
-    name: c02-per-decade
+    title: BTC - USD (2014 - 2024)
+    name: btc-per-year
     format: csv
     schema:
       fields:
-      - name: year
+      - name: Date
         type: date
-      - name: co2
+      - name: Open
         type: number
 ---
 
-Here's some text.
-
-You can add as much text as you like.
-
-The data files will be automatically displayed here.
 
 We can add a chart:
 
 <LineChart
   data="./data.csv"
-  title="C02 per decade"
+  title="BTC - USD (2014 - 2024) Open"
   xAxis="year"
-  yAxis="co2"
+  yAxis="value"
 />
