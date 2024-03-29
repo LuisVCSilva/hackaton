@@ -27,11 +27,12 @@ The data files will be automatically displayed here.
 We can add a chart:
 
 <LineChart
-  data="./data.csv"
-  title="BTCxUSD"
-  xAxis="year"
-  yAxis="volume"
+  data="data.csv"
+  title="Bitcoin Data"
+  xAxis="Date"
+  yAxis="Volume"
 />
+
 
 
 <PlotlyLineChart
