@@ -1,34 +1,30 @@
 ---
 datapackage:
-  title: Dataset Template
-  description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
+  title: Testing again
+  description: No template
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
-  - path: data.csv
-    title: BTCxUSD
-    name: btcXusd
+  - path: BTC-USD.csv
+    title: BTC
+    name: btc-volume
     format: csv
     schema:
       fields:
-      - name: year
+      - name: Date
         type: date
-      - name: open
+      - name: Volume
         type: number
 ---
 
-lorem ipsum
-
-We can add a chart:
 
 <LineChart
-  data="./data.csv"
-  title="BTCxUSD"
-  xAxis="year"
-  yAxis="volume"
+  data="BTC-USD.csv"
+  title="Bitcoin Data"
+  xAxis="Date"
+  yAxis="Volume"
 />
-
 
 <PlotlyLineChart
   data={[
