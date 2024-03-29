@@ -18,13 +18,7 @@ datapackage:
         type: number
 ---
 
-Here's some text.
-
-You can add as much text as you like.
-
-The data files will be automatically displayed here.
-
-We can add a chart:
+Here are some plots
 
 <LineChart
   data="data.csv"
