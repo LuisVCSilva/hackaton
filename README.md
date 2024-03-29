@@ -1,3 +1,4 @@
+#working mine
 ---
 datapackage:
   title: Dataset Template
@@ -27,7 +28,7 @@ The data files will be automatically displayed here.
 We can add a chart:
 
 <LineChart
-  data="./data.csv"
+  data="data.csv"
   title="BTCxUSD"
   xAxis="year"
   yAxis="volume"
