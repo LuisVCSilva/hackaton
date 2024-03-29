@@ -7,14 +7,14 @@ datapackage:
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
   - path: data.csv
-    title: C02 PPM per decade
-    name: c02-per-decade
+    title: BTC
+    name: btc-volume
     format: csv
     schema:
       fields:
-      - name: year
+      - name: Date
         type: date
-      - name: co2
+      - name: Volume
         type: number
 ---
 
@@ -27,7 +27,7 @@ The data files will be automatically displayed here.
 We can add a chart:
 
 <LineChart
-  data="data.csv"
+  data="./data.csv"
   title="BTCxUSD"
   xAxis="year"
   yAxis="volume"
