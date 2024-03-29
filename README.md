@@ -1,7 +1,7 @@
 ---
 datapackage:
-  title: Dataset Template
-  description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
+  title: My own repo
+  description: Testing from scratch repo
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
