@@ -27,23 +27,22 @@ Here are some plots
   yAxis="Volume"
 />
 
-<PlotlyLineChart
+<PlotlyScatterPlot
   data={[
     {
-      x: ['A', 'B', 'C', 'D'],
-      y: [1, 2, 3, 4],
+      x: [1, 2, 3, 4],
+      y: [10, 15, 13, 17],
+      mode: 'markers',
       type: 'scatter',
-      mode: 'lines+markers',
-      marker: { color: 'blue' },
+      marker: { size: 12 },
     },
   ]}
   layout={{
-    title: 'Line Chart Example',
+    title: 'Scatter Plot Example',
     xaxis: { title: 'X Axis' },
     yaxis: { title: 'Y Axis' },
   }}
 />
-
 
 <PlotlyLineChart
   data={[
