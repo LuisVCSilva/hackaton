@@ -27,18 +27,21 @@ Here are some plots
   yAxis="Volume"
 />
 
-<PlotlyHeatmap
+<PlotlyLineChart
   data={[
     {
-      z: [
-        [1, 20, 30],
-        [20, 1, 60],
-        [30, 60, 1]
-      ],
-      type: 'heatmap'
-    }
+      x: ['A', 'B', 'C', 'D'],
+      y: [1, 2, 3, 4],
+      type: 'scatter',
+      mode: 'lines+markers',
+      marker: { color: 'blue' },
+    },
   ]}
-  layout={{ title: 'Heatmap Example' }}
+  layout={{
+    title: 'Line Chart Example',
+    xaxis: { title: 'X Axis' },
+    yaxis: { title: 'Y Axis' },
+  }}
 />
 
 
