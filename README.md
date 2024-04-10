@@ -28,7 +28,7 @@ Here are some plots
 />
 
 <PlotlyHeatmap
-data = [
+  data={[
     {
       z: [
         [1, 20, 30],
@@ -37,6 +37,8 @@ data = [
       ],
       type: 'heatmap'
     }
+  ]}
+  layout={{ title: 'Heatmap Example' }}
 />
 
 
