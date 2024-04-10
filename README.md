@@ -26,64 +26,21 @@ Here are some plots
   xAxis="Date"
   yAxis="Volume"
 />
-<PlotlyBarChart
-  data={[
-    {
-      x: ['A', 'B', 'C', 'D'],
-      y: [10, 20, 15, 25],
-      type: 'bar',
-      marker: { color: 'green' },
-    },
-  ]}
-  layout={{
-    title: 'Bar Chart Example',
-    xaxis: { title: 'X Axis' },
-    yaxis: { title: 'Y Axis' },
-  }}
-/>
+
 
 <PlotlyLineChart
   data={[
     {
-      Volume: 902994450,
-      Date: '01/10/2014'
+      x: ['A', 'B', 'C', 'D'],
+      y: [1, 2, 3, 4],
+      type: 'scatter',
+      mode: 'lines+markers',
+      marker: { color: 'blue' },
     },
-    {
-      Volume: 659733360,
-      Date: '01/11/2014'
-    },
-    {
-      Volume: 1098811912,
-      Date: '01/12/2014'
-    },
-    {
-      Volume: 711518700,
-      Date: '01/02/2015'
-    }
   ]}
-  xAxis="Date"
-  yAxis="Volume"
-/>
-
-<PlotlyBarChart
-  data={[
-    {
-      Volume: 902994450,
-      Date: '01/10/2014'
-    },
-    {
-      Volume: 659733360,
-      Date: '01/11/2014'
-    },
-    {
-      Volume: 1098811912,
-      Date: '01/12/2014'
-    },
-    {
-      Volume: 711518700,
-      Date: '01/02/2015'
-    }
-  ]}
-  xAxis="Date"
-  yAxis="Volume"
+  layout={{
+    title: 'Line Chart Example',
+    xaxis: { title: 'X Axis' },
+    yaxis: { title: 'Y Axis' },
+  }}
 />
