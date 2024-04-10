@@ -26,19 +26,17 @@ Here are some plots
   xAxis="Date"
   yAxis="Volume"
 />
-
-<PlotlyScatterPlot
+<PlotlyBarChart
   data={[
     {
-      x: [1, 2, 3, 4],
-      y: [10, 15, 13, 17],
-      mode: 'markers',
-      type: 'scatter',
-      marker: { size: 12 },
+      x: ['A', 'B', 'C', 'D'],
+      y: [10, 20, 15, 25],
+      type: 'bar',
+      marker: { color: 'green' },
     },
   ]}
   layout={{
-    title: 'Scatter Plot Example',
+    title: 'Bar Chart Example',
     xaxis: { title: 'X Axis' },
     yaxis: { title: 'Y Axis' },
   }}
